@@ -1,0 +1,252 @@
+html,
+body {
+  background-color: var(--background-color-dark);
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+:root {
+  --background-color-dark: hsl(233, 41%, 10%);
+  --navbar-color: hsl();
+  --font-navbar: "Poppins", sans-serif;
+  --font-size-navbar: 2rem;
+  --icon-theme-color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  padding: 4rem 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  padding: 0;
+  justify-items: center;
+  position: relative;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+
+.iconlighttheme {
+  width: 3rem;
+  margin-right: 30rem;
+}
+
+.iconlighttheme:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+.logo {
+  width: 7rem;
+  transition: 200ms;
+  justify-items: center;
+}
+
+.logo:hover {
+  transition: 200ms;
+  transform: scale(1.2);
+}
+
+.navigation-bar ul {
+  margin-left: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  font-size: var(--font-size-navbar);
+  font-family: var(--font-navbar);
+  font-weight: 700;
+  transition: 0.2s;
+  padding: 1rem;
+  color: antiquewhite;
+}
+
+.navbar-item:hover {
+  transition: 0.2s ease;
+  font-size: 2.1rem;
+  color: white;
+}
+
+.home-page {
+  width: 80%;
+  margin: auto;
+}
+
+.initial-text {
+  color: white;
+  display: grid;
+  line-height: 0.1px;
+  justify-items: center;
+  justify-content: center;
+  align-items: baseline;
+  margin: 5rem;
+}
+
+.h1-initial-text {
+  font-size: 5rem;
+}
+
+.h2-initial-text {
+  font-size: 2rem;
+}
+
+.me {
+  margin: auto;
+  width: 41rem;
+  display: grid;
+  margin-bottom: 10rem;
+}
+
+.my-experience,
+.my-portfolio {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 30px;
+}
+
+.stacks,
+.works {
+  color: rgb(165, 165, 165);
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1px;
+}
+
+.text-stacks {
+  padding-top: 10rem;
+}
+
+.stacks-page {
+  padding-top: 25rem;
+  color: white;
+  font-size: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.title-frontend,
+.title-backend,
+.title-frameworks {
+  text-align: center;
+}
+
+.screen-frontend,
+.screen-backend,
+.screen-frameworks {
+  width: 50rem;
+  margin: 0 0 2rem 0;
+  border: solid 0.2rem;
+  border-radius: 40px;
+  justify-content: center;
+  background-color: hsl(233, 41%, 15%);
+}
+
+.itens-backend,
+.itens-frontend,
+.itens-frameworks {
+  padding: 1rem 0 0 8rem;
+  align-items: center;
+  display: grid;
+  line-height: 4rem;
+}
+
+.image-css3 {
+  width: 2.2rem;
+  padding-right: 2rem;
+}
+
+.image-html5 {
+  width: 2.1rem;
+  padding-right: 2rem;
+}
+
+.image-javascript {
+  width: 1.8rem;
+  padding-right: 2rem;
+}
+
+.image-nodejs {
+  width: 2.8rem;
+  padding-right: 2rem;
+}
+
+.image-mysql {
+  width: 2.8rem;
+  padding-right: 2rem;
+}
+
+.image-python {
+  width: 2.8rem;
+  padding-right: 2rem;
+}
+
+.image-react,
+.image-reactnative {
+  width: 2.5rem;
+  padding-right: 2rem;
+}
+
+.image-flutter {
+  width: 2.3rem;
+  padding-right: 2rem;
+}
+
+.works-page {
+  padding-top: 25rem;
+}
+
+.painel-works {
+  width: 80rem;
+  height: 60rem;
+  margin: auto;
+  border: solid 0.2rem #fff;
+  border-radius: 40px;
+  justify-content: center;
+  background-color: hsl(233, 41%, 15%);
+}
+
+.buttons-works {
+  margin: 7rem 0 5rem 0;
+  text-align: center;
+}
+
+.button-works {
+  border: var(--background-color-dark);
+  border-radius: 1rem;
+  margin: 0 0.5rem;
+  background-color: var(--background-color-dark);
+  color: white;
+  font-family: var(--font-navbar);
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
